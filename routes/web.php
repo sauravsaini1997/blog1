@@ -21,11 +21,4 @@ Route::get('/posts', function() {
     return view('pages.posts');
 });
 
-Route::get('/posts/{post}', function( $post ) {
-    return view(
-        'pages.posts',
-        [
-            'posts' => $post
-        ]
-    );
-});
+Route::get('/posts/{post}', 'PostsController@show');
