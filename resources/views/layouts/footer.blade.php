@@ -66,8 +66,8 @@
 
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="http://localhost/blog1/resources/js/jquery.min.js"></script>
-<script src="http://localhost/blog1/resources/js/jquery.backtotop.js"></script>
-<script src="http://localhost/blog1/resources/js/jquery.mobilemenu.js"></script>
+<script src="{{ asset('public/js/jquery.min.js') }}"></script>
+<script src="{{ asset('public/js/jquery.backtotop.js') }}"></script>
+<script src="{{ asset('public/js/jquery.mobilemenu.js') }}"></script>
 </body>
 </html>
