@@ -22,5 +22,10 @@ Route::get('/posts', function() {
 });
 
 Route::get('/posts/{post}', function( $post ) {
-    return view('pages.posts');
+    return view(
+        'pages.posts',
+        [
+            'posts' => $post
+        ]
+    );
 });
