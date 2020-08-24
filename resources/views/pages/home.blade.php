@@ -5,7 +5,7 @@
   <div id="pageintro" class="hoc clear"> 
     <article>
       <p>Sed diam et lacinia aliquam</p>
-      <h3 class="heading">Viverra massa malesuada</h3>
+      <h3 class="heading">Saurabh Saini</h3>
       <p>Consectetur in dolor vitae consectetur maecenas id ultrices</p>
       <footer><a class="btn" href="#">Dolor nam hendrerit</a></footer>
     </article>
