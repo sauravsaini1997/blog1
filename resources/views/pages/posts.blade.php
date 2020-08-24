@@ -5,7 +5,7 @@
     </br>
     </br>
     <article>
-        {{ $posts }}
+        {{ $posts->body }}
         <?php if( empty( $posts ) ) { ?>
             <div class="not-found">
                 No posts found!
