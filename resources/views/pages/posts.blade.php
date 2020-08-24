@@ -5,14 +5,10 @@
     </br>
     </br>
     <article>
-        {{ $posts->body }}
-        
-        
-        <?php if( empty( $posts ) ) { ?>
-            <div class="not-found">
-                No posts found!
+            <h1>Posts Body</h1>
+            <div class="Posts">
+                {{ $posts->body }}
             </div>
-        <?php } ?>
     </article>
 </div>
 @endsection
